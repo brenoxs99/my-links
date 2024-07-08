@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: #c1c1c1;
+}
+
+.grid-a {
+  display: grid;
+  height: 760px;
+
+  place-content: center;
+  background-color: #020617;
+}
+
+.grid-b {
+  background-color: rgba(230, 230, 230, 0.1);
+  display: grid;
+  grid-template-columns: 350px;
+  grid-template-rows: repeat(3, 150px);
+  width: 400px;
+  height: 600px;
+  border-radius: 25px;
+  place-content: center;
+}
+
+.grid-c {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 350px;
+  grid-template-rows: 3;
+  height: 300px;
+  place-content: center;
+  grid-row: 2;
+}
+
+.rede-social {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 25px 25px 25px;
+  gap: 20px;
+  place-content: center;
+  grid-row: 4;
+}
+
+.botao-links {
+  background: rgba(125, 125, 125, 0.6);
+  font-size: 19px;
+  text-align: left;
+  color: #d1d1d1;
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.grid-perfil {
+  display: grid;
+  grid-template-columns: 300px;
+  gap: 15px;
+  height: 150px;
+  grid-row: 1;
+  place-content: center;
+  place-items: center;
+}
+
+.foto-perfil {
+  height: 89px;
+  width: 88px;
+  border-radius: 100%;
+  opacity: 90%;
+}
+
+.descricao {
+  text-align: center;
+  place-self: start center;
+  font-weight: bold;
+}
+
+.descricao-2 {
+  margin-top: -8px;
+  font-size: 14px;
+}
