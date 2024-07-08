@@ -5,6 +5,7 @@
 
 body {
   font-family: Arial;
+  background-color: #020617;
 }
 
 img {
@@ -17,7 +18,7 @@ p {
 
 .grid-a {
   display: grid;
-  height: 760px;
+  height: 610px;
 
   place-content: center;
   background-color: #020617;
