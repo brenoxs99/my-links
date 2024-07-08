@@ -1,1 +1,4 @@
-assets/ignore/
+assets/ignore/*.jpg
+
+# -----------------
+assets/ignore/*.svg
